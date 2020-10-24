@@ -8,9 +8,9 @@ import Header from "components/MainLayout/components/Header";
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright RS School © '}
+      {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        RS Store
+        My Store
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
